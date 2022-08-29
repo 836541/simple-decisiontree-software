@@ -3,7 +3,7 @@ PT-BR Decision Tree Software
 
 Irrelevant Decision Tree Software I made for introductory SKLEARN learning purposes.
 
-Ask 5 questions then say if you are healthy or not.
+Ask 5 questions then you know if you are healthy or not.
 
 2 datasets available: 
 
