@@ -109,7 +109,7 @@ def alimentacaoTree(sol,alimentacao,falimentacao):
     ['SOL RUIM', 'ALIM RUIM', 'FALIM MEDIA']                 3
     ['SOL RUIM', 'ALIM RUIM', 'FALIM RUIM']                  3
     '''
-    [1,1,]
+
     if sol == 4:   # sol exagerado faz tanto mal quanto sol escasso
         sol = 3
 
