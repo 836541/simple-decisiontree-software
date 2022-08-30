@@ -307,7 +307,7 @@ def mainTree(habitos, exercicios, sono, mode):
         "1": "Perfeito, você viverá uma vida longa e saudável se continuar assim",
         "2": "Muito bem, você viverá bem e saudável, mas pode melhorar ainda",
         "3": "Okay, você é saudável, mas não há tantas garantias de um bom envelhecimento, ainda mais se você já for velho",
-        "4": "Cuidado, seu estado não é tao ruim, mas você tem coisas sérias pra melhorar",
+        "4": "Cuidado, seu estado está ruim, você tem coisas sérias pra melhorar",
         "5": "Se você passou dos 30 foi milagre :), MELHORE URGENTEMENTE !"
     }
     if not mode:
@@ -411,7 +411,7 @@ def mainTree(habitos, exercicios, sono, mode):
 
 
 
-    resultados = [1,1,3,1,2,3,2,3,4,1,2,4,2,3,4,2,3,4,3,3,4,3,4,5,4,5,5]
+    resultados = [1,1,3,1,2,3,2,3,4,1,2,4,2,3,4,2,3,4,3,3,4,3,4,5,5,5,5]
 
     classificador = tree.DecisionTreeClassifier()
     classificador = classificador.fit(triagem, resultados)
