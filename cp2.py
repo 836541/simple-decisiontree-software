@@ -425,8 +425,7 @@ def mainTree(habitos, exercicios, sono, mode):
         pass
     print("[!] Seu diagnóstico foi feito !\n")
     time.sleep(2)
-    print(f"[*]{resultados_possiveis[str(diagnostico)]}")
-
+    print(f"[*]\33[31;1m{resultados_possiveis[str(diagnostico)]}\33[m")
 
 if __name__=="__main__": 
     while True:
