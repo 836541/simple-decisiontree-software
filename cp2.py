@@ -1,13 +1,5 @@
 #!/usr/bin/python3
-'''
-Leonardo Dalantonia Poloni RM95523 
-Checkpoint 02 do Semestre 02 - FIAP 
-GPL3.0-or-foward
-Version 1.0
 
-Body Health Software
-Decision Tree Algorithm to predict how healthy a person will be in thirty years.
-'''
 from sklearn import tree
 import platform
 import subprocess
